@@ -127,7 +127,7 @@
                 int monsterDamage = rand.Next(5, 16);
                 health -= monsterDamage;
                 Console.WriteLine($"Монстр нанес вам {monsterDamage} урона. У вас осталось {health} HP."); 
-            }
+            } 
         }
         Console.WriteLine("Вы победили монстра!");
     }
